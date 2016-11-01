@@ -60,7 +60,7 @@ h2 {
 #chicken-menu {
 	background-color: lightgray;
 	display: inline-block;
-	height: auto;
+	height: 1000px;
 	align-content: center;
 	margin: 10px 10px 10px 10px;
 	overflow: hidden;
