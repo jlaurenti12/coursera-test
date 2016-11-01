@@ -1,0 +1,87 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: lightgray;
+  border-radius: 0;
+  border: 0;
+  height: 50px;
+}
+
+
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Arial', serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  clear: both;
+}
+
+#chicken {
+	margin-top: -8px;
+}
+#nav-list a {
+  background-color: white;
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: -1px;
+}
+
+#nav-list a:hover {
+  background: lightgray;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+
+h2 {
+	margin-bottom: 30px;
+}
+
+
+#chicken-menu {
+	background-color: lightgray;
+	display: inline-block;
+	height: auto;
+	align-content: center;
+	margin: 10px 10px 10px 10px;
+	overflow: hidden;
+
+}
+
+.header {
+	font-weight: bold;
+}
+
+.menu-content {
+	padding: 10px;
+}
+
+
+@media (max-width: 768px) {
+	h2 {
+		margin-bottom: 20px;
+	}
+	#chicken-menu {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}
